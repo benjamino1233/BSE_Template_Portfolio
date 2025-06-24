@@ -53,6 +53,7 @@ I plan to add ____ to my arm for my second milestone.
 
 # Schematics 
 Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.
+
 ![Headstone Image](Schematic.png)
 
 # Bill of Materials
