@@ -52,8 +52,7 @@ Some challenges I faced was a damaged screw, which I had to forcibly remove with
 I plan to add ____ to my arm for my second milestone.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
+Here is my schematic of my project, however note that I only used one servo when there should be four.
 ![Headstone Image](Schematic.png)
 
 # Bill of Materials
