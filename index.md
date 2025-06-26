@@ -30,9 +30,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
++ For my second milestone, I finished the code of the arm, which functions by constantly reading the inputs by the joystick, which gets interpreted by the arduino nano (the microcontroller) and tells the servos what to do.
+
++ One challenge I had faced while finishing the code was that once I had run it, the base servo was not moving properly, and was constantly getting stuck.  To fix this I loosened the screws on the base and also editing the delay to make it shorter and less jittery.
+
++ In my final milestone, I plan to have the arm controlled through a web server, which will be coded in HTML.
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -45,7 +51,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WEVPtltrrHc?si=PYCW5egRnC96kiO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-+ For my first milestone, I finished base of the arm, which is composed of 4 servo motors (motors that rotate) and is controlled by joysticks which send data to the Arduino Nano board. The Nano then interprets this data and moves the servo motors.
++ For my first milestone, I finished base of the arm, which is composed of 4 servo motors (motors that rotate) and is controlled by joysticks which send data to the Arduino Nano board. 
 
 + Some challenges I faced was a damaged screw on a servo attachment which caused the base of the arm to fail to move around.  Removing the screw with a screwdriver became impossible, so I ended up fixing this problem with the use of tweezers.
 
