@@ -53,6 +53,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # Schematics 
 Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).
+
 ![Headstone Image](Schematic.png)
 
 # Bill of Materials
