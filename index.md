@@ -49,7 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 + Some challenges I faced was a damaged screw on a servo attachment which caused the base of the arm to fail to move around.  Removing the screw with a screwdriver became impossible, so I ended up fixing this problem with the use of tweezers.
 
-+ In my second milestone, I plan to finish the code and possibly add a modification such as making it website controllable.
++ In my second milestone, I plan to finish the code for the robotic arm.
 
 # Schematics 
 Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).
