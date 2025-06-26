@@ -40,11 +40,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 + In my final milestone, I plan to have the arm controlled through a web server, which will be coded in HTML.
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 
 # First Milestone
 
