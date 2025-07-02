@@ -16,7 +16,6 @@
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -38,7 +37,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 + One challenge I had faced while finishing the code was that once I had run it, the base servo was not moving properly, and was constantly getting stuck.  To fix this I loosened the screws on the base and also editing the delay to make it shorter and less jittery.
 
-+ In my final milestone, I plan to have the arm controlled through a web server, which will be coded in HTML.
++ In my final milestone, I plan to have the arm read the angles through a web server, which will be coded in HTML.
 
 
 # First Milestone
@@ -60,20 +59,17 @@ Here is my schematic of my project, however note that I only used one servo when
 
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Cokoino Robtoic Arm | Contains the acrilyc parts of the arm, servos, nano shield, the nano, joysticks, and a few jumper wires. | $50 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A121QRXIPYS4LW&gQT=1"> Link </a> |
 | Electronics Component Kit | Includes wires, resistor, breadboard, and a connector wire. | $13.49 | <a href="https://www.amazon.com/Smraza-Electronics-Potentiometer-tie-Points-Breadboard/dp/B0B62RL725?th=1"> Link </a> |
 | Arduino Nano ESP32 | Used to create the webserver that reads the angles of the servo motors. | $21 | <a href="https://www.amazon.com/Arduino-ABX00083-Bluetooth-MicroPython-Compatible/dp/B0C947BHK5/ref=sr_1_1?crid=XXKMD4BI15SK&dib=eyJ2IjoiMSJ9.GzP-GvhsR81ftjmV7C-hRSw3xCE-vFb8iSaSjMM6uu1IR5yIXFH4oudArXIMCVePDrlDinwBUQ5g1iugiHRVYUq7Vp_5-uq1_glw3QsWS4lZ5bcL6o2jIrfNr4V8_kncHGT68Sd3Vtfjd_63kyCPDnx602Ui_th0mY-wC778PNWYI-8E25M64p0ln86pii-Ed7U3ggnWOnCD2M3WpCKIXhh-lD_8fNxAYdCXESwE_YYtBvpjDqSjg1cyLu3p29fIT8rUHC6wkgW4QiNNzHyTm8h7KUEoXQN-wXVeHlg4tlw.3kW9CJ8QykGxJDI0_uTNjReD-_ZaBIVBg6AIzu2gtpA&dib_tag=se&keywords=arduino+nano+esp32&qid=1751483218&s=electronics&sprefix=arduino+nano+esp3%2Celectronics%2C147&sr=1-1"> Link </a> |
-| Braided Charging Cables | Used as a data transfer cable to connect the ESP32 to computer. | $Price | <a href="https://www.amazon.com/Anker-2-Pack-Premium-Samsung-Galaxy/dp/B07DD5YHMH/ref=sr_1_2?crid=YZWL0OE9WL00&dib=eyJ2IjoiMSJ9.try91HmNUm2N7eWLcSoZ2etuZGg-05a9clikk9FgGx6AEt0zfq16EopkOwXfETjsK73hZV_veCWX7upHVzaEBWZzfRbBkhqfcPuLkn4kqwzQqC3Lalb_wRP8eNvTZj4Rka3IbnecCWRhW-AJ2eoqcLqGlp51oSC3WEJf3tTDEY82WRXk7PS5YIH6PPntYLD7CYWDX660UgZYm7LsjsN2xbKcewCb29jWI4EDTcmwiws2FQpR120FWvGQPu7Dsqt6vsX0GC8VX7jTDhKKJLmK3nPkSIyNKSSKGkjzE9FeUO4.1ATWtydlTWhnwcKBTIJdm581qnmWmModIkEbn9SgJoM&dib_tag=se&keywords=insignia%2Bbraided%2Bcharging%2Bcables%2Busb%2Bto%2Busbc&qid=1751483361&s=electronics&sprefix=insignia%2Bbraided%2Bcharging%2Bcables%2Busb%2Bto%2Busbc%2Celectronics%2C137&sr=1-2&th=1"> Link </a> |
+| Braided Charging Cables | Used as a data transfer cable to connect the ESP32 to computer. | $10 | <a href="https://www.amazon.com/Anker-2-Pack-Premium-Samsung-Galaxy/dp/B07DD5YHMH/ref=sr_1_2?crid=YZWL0OE9WL00&dib=eyJ2IjoiMSJ9.try91HmNUm2N7eWLcSoZ2etuZGg-05a9clikk9FgGx6AEt0zfq16EopkOwXfETjsK73hZV_veCWX7upHVzaEBWZzfRbBkhqfcPuLkn4kqwzQqC3Lalb_wRP8eNvTZj4Rka3IbnecCWRhW-AJ2eoqcLqGlp51oSC3WEJf3tTDEY82WRXk7PS5YIH6PPntYLD7CYWDX660UgZYm7LsjsN2xbKcewCb29jWI4EDTcmwiws2FQpR120FWvGQPu7Dsqt6vsX0GC8VX7jTDhKKJLmK3nPkSIyNKSSKGkjzE9FeUO4.1ATWtydlTWhnwcKBTIJdm581qnmWmModIkEbn9SgJoM&dib_tag=se&keywords=insignia%2Bbraided%2Bcharging%2Bcables%2Busb%2Bto%2Busbc&qid=1751483361&s=electronics&sprefix=insignia%2Bbraided%2Bcharging%2Bcables%2Busb%2Bto%2Busbc%2Celectronics%2C137&sr=1-2&th=1"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+- [Arduino Nano ESP32 Web Server](https://newbiely.com/tutorials/arduino-nano-esp32/arduino-nano-esp32-web-server/)
+- [UART Two Arduino Communication](https://peppe8o.com/arduino-uart-communication/)
+
