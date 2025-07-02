@@ -1,4 +1,6 @@
-# Robotic Arm
+# 3 Joint Robotic Arm
+
+For my project, I made a robotic arm that is controlled by 2 joysticks.   The arm can move up, down, spin by the base, and the claw can close and open.
 <!---I made a robotic arm and claw that is controlled by joystick   (Not completed) -->
 
 <!--You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
@@ -30,7 +32,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 # Second Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QebH0tHOgoQ?si=9-RoM77yHwNBYQTp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 + For my second milestone, I finished the code of the arm, which functions by constantly reading the inputs by the joystick, which gets interpreted by the arduino nano (the microcontroller) and tells the servos what to do.
