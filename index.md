@@ -53,9 +53,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 + In my second milestone, I plan to finish the code for the robotic arm.
 
 # Schematics 
-Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).  For the modification, I connected the TX pin of the arduino nano to Arduino Nano ESP32's 
+Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).  For the modification, I connected the TX pin of the arduino nano to Arduino Nano ESP32's digital pin 3 through the green wire shown through the top image.  The top image is the Nano ESP32 and the bottom is just the Nano.
 
+![Headstone Image](Schematic2.png)
 ![Headstone Image](Schematic.png)
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
