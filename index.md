@@ -53,7 +53,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 + In my second milestone, I plan to finish the code for the robotic arm.
 
 # Schematics 
-Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).
+Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).  For the modification, I connected the TX pin of the arduino nano to Arduino Nano ESP32's 
 
 ![Headstone Image](Schematic.png)
 
