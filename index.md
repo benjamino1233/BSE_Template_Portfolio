@@ -1,6 +1,6 @@
 # 3 Joint Robotic Arm
 
-For my project, I made a robotic arm that is controlled by 2 joysticks.   The arm can move up, down, spin by the base, and the claw can close and open.  Currently, my arm is connected to an esp32 which receives the angles of the arm and displays it onto a website.  
+For my project, I made a robotic arm that is controlled by 2 joysticks.   The arm can move up, down, spin by the base, and the claw can close and open.  Currently, my arm is connected to an ESP32 which receives the angles of the arm and displays it onto a website.  
 <!---I made a robotic arm and claw that is controlled by joystick   (Not completed) -->
 
 <!--You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
