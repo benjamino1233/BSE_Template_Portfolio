@@ -17,9 +17,7 @@ For my project, I made a robotic arm that is controlled by 2 joysticks.   The ar
   
 # Final Milestone
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dapA_x_85sM?si=Iy0P-3X4tyCPVUxJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 + For my final milestone, I created a WebServer through the ESP32 that reads the anlges of the servo motors on the arm.  By connecting the arduino nano and the nano esp32, they could communicate through serial.  So, when my joysticks send an input through to the arduino that moves the servos, the arduino reads the angles of the servo and sends it to the esp32.  These values are then passed to the web server, which updates the displayed angles on the website each second by automatically reloading the page.
