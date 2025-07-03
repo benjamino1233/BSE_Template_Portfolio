@@ -27,8 +27,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
++ For my final milestone, I created a WebServer through the ESP32 that reads the anlges of the servo motors on the arm.  By connecting the arduino nano and the nano esp32, they could communicate through serial.  So, when my joysticks send an input through to the arduino that moves the servos, the arduino reads the angles of the servo and sends it to the esp32.  These values are then passed to the web server, which dynamically updates the displayed angles on the website.
 
++ The biggest challenge I have faced during my time at BSE was trying to understand the code that came with my modification.  Even though there were many tutorials about my specific modification, there was still a lot to learn about it with the help of my instructor.
 
++ Overall, doing this project shows the importance of researching, and also gained experience with a hands on project.
+
+  
 # Second Milestone
 
 
@@ -54,10 +59,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 + In my second milestone, I plan to finish the code for the robotic arm.
 
 # Schematics 
-Here is my schematic of my project, however note that I only used one servo when there should be four connected in the same manner on pins 4, 5, 6, and 7.  (In the actual project, I use a shield for the nano so that you can directly connect the servos and joysticks to the arduino).  For the modification, I connected the TX pin of the arduino nano to Arduino Nano ESP32's digital pin 3 through the green wire shown through the top image.  The top image is the Nano ESP32 and the bottom is just the Nano.
+Here is my schematic of my project.
 
-![Headstone Image](Schematic2.png)
-![Headstone Image](Schematic.png)
+![Headstone Image](Schematicnew.png)
 
 
 # Bill of Materials
