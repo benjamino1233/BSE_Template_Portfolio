@@ -21,18 +21,15 @@ For my project, I made a robotic arm that is controlled by 2 joysticks.   The ar
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
-+ For my final milestone, I created a WebServer through the ESP32 that reads the anlges of the servo motors on the arm.  By connecting the arduino nano and the nano esp32, they could communicate through serial.  So, when my joysticks send an input through to the arduino that moves the servos, the arduino reads the angles of the servo and sends it to the esp32.  These values are then passed to the web server, which dynamically updates the displayed angles on the website.
 
-+ The biggest challenge I have faced during my time at BSE was trying to understand the code that came with my modification.  Even though there were many tutorials about my specific modification, there was still a lot to learn about it with the help of my instructor.
++ For my final milestone, I created a WebServer through the ESP32 that reads the anlges of the servo motors on the arm.  By connecting the arduino nano and the nano esp32, they could communicate through serial.  So, when my joysticks send an input through to the arduino that moves the servos, the arduino reads the angles of the servo and sends it to the esp32.  These values are then passed to the web server, which updates the displayed angles on the website each second by automatically reloading the page.
 
-+ Overall, doing this project shows the importance of researching, and also gained experience with a hands on project.
++ The biggest challenge I have faced during my time at BSE was trying to understand the code that came with my modification.  Even though there were many tutorials about my specific modification, there was still a lot to learn about it with the help of my instructor and I eventually gained a much better understanding about how it worked.
 
++ Throughout the program I learned more about Arduino, electronics, serial communication, and also improved my debugging skills through experimentation with the base arm code and researching.
+
++ In the future, I plan on implementing real time updates to my website and also having it control the servos directly, or implementing something related to math.
   
 # Second Milestone
 
