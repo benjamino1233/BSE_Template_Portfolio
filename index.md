@@ -13,7 +13,7 @@ For my project, I made a robotic arm that is controlled by 2 joysticks.   The ar
 | Benjamin O. | Northwood High | Mechanical Engineering | Incoming Sophomore |
 
 
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_0536.HEIC)
   
 # Final Milestone
 
